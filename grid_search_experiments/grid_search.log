@@ -1,0 +1,409 @@
+2025-02-23 13:54:19,894 - INFO - Starting Grid Search Training
+2025-02-23 13:54:19,894 - INFO - Device: mps
+2025-02-23 13:54:19,894 - INFO - Memory Usage: 0.00 MB
+2025-02-23 13:54:19,894 - INFO - 
+Starting Scenario 1
+2025-02-23 13:54:19,894 - INFO - Split: 70_30, Stemming: True
+2025-02-23 13:55:28,467 - INFO - Starting Grid Search Training
+2025-02-23 13:55:28,468 - INFO - Device: mps
+2025-02-23 13:55:28,468 - INFO - Memory Usage: 0.00 MB
+2025-02-23 13:55:28,468 - INFO - 
+Starting Scenario 1
+2025-02-23 13:55:28,468 - INFO - Split: 70_30, Stemming: True
+2025-02-23 13:56:16,164 - INFO - Starting Grid Search Training
+2025-02-23 13:56:16,165 - INFO - Device: mps
+2025-02-23 13:56:16,165 - INFO - Memory Usage: 0.00 MB
+2025-02-23 13:56:16,165 - INFO - 
+Starting Scenario 1
+2025-02-23 13:56:16,165 - INFO - Split: 70_30, Stemming: True
+2025-02-23 13:56:16,879 - INFO - 
+Starting Experiment: grid_exp_70_30_stem_iter0_h128_d0.1_lr0.0001_b16_l1
+2025-02-23 14:01:25,419 - INFO - Epoch 1/5
+2025-02-23 14:01:25,420 - INFO - Train Loss: 0.5235, Train F1: 0.7097
+2025-02-23 14:01:25,420 - INFO - Val Loss: 0.4989, Val F1: 0.7501
+2025-02-23 14:08:05,011 - INFO - Epoch 2/5
+2025-02-23 14:08:05,011 - INFO - Train Loss: 0.4866, Train F1: 0.7449
+2025-02-23 14:08:05,011 - INFO - Val Loss: 0.4856, Val F1: 0.7539
+2025-02-23 14:15:05,526 - INFO - Epoch 3/5
+2025-02-23 14:15:05,526 - INFO - Train Loss: 0.4708, Train F1: 0.7622
+2025-02-23 14:15:05,526 - INFO - Val Loss: 0.4790, Val F1: 0.7612
+2025-02-23 14:22:15,611 - INFO - Epoch 4/5
+2025-02-23 14:22:15,611 - INFO - Train Loss: 0.4607, Train F1: 0.7687
+2025-02-23 14:22:15,611 - INFO - Val Loss: 0.4783, Val F1: 0.7646
+2025-02-23 14:29:58,360 - INFO - Epoch 5/5
+2025-02-23 14:29:58,361 - INFO - Train Loss: 0.4450, Train F1: 0.7823
+2025-02-23 14:29:58,361 - INFO - Val Loss: 0.4740, Val F1: 0.7682
+2025-02-23 14:29:58,365 - INFO - Completed Experiment: grid_exp_70_30_stem_iter0_h128_d0.1_lr0.0001_b16_l1
+2025-02-23 14:29:58,365 - INFO - Best F1 Score: 0.7682
+2025-02-23 14:29:58,365 - INFO - 
+Starting Experiment: grid_exp_70_30_stem_iter1_h128_d0.1_lr0.0001_b16_l2
+2025-02-23 14:39:47,619 - INFO - Epoch 1/5
+2025-02-23 14:39:47,619 - INFO - Train Loss: 0.5253, Train F1: 0.7129
+2025-02-23 14:39:47,619 - INFO - Val Loss: 0.4933, Val F1: 0.7363
+2025-02-23 14:49:35,596 - INFO - Epoch 2/5
+2025-02-23 14:49:35,597 - INFO - Train Loss: 0.4862, Train F1: 0.7536
+2025-02-23 14:49:35,597 - INFO - Val Loss: 0.4909, Val F1: 0.7558
+2025-02-23 14:59:09,274 - INFO - Epoch 3/5
+2025-02-23 14:59:09,275 - INFO - Train Loss: 0.4680, Train F1: 0.7639
+2025-02-23 14:59:09,275 - INFO - Val Loss: 0.4855, Val F1: 0.7578
+2025-02-23 15:08:49,197 - INFO - Epoch 4/5
+2025-02-23 15:08:49,198 - INFO - Train Loss: 0.4495, Train F1: 0.7793
+2025-02-23 15:08:49,198 - INFO - Val Loss: 0.4778, Val F1: 0.7636
+2025-02-23 15:18:53,258 - INFO - Epoch 5/5
+2025-02-23 15:18:53,262 - INFO - Train Loss: 0.4258, Train F1: 0.7981
+2025-02-23 15:18:53,262 - INFO - Val Loss: 0.4831, Val F1: 0.7682
+2025-02-23 15:18:53,266 - INFO - Completed Experiment: grid_exp_70_30_stem_iter1_h128_d0.1_lr0.0001_b16_l2
+2025-02-23 15:18:53,266 - INFO - Best F1 Score: 0.7682
+2025-02-23 15:18:53,266 - INFO - 
+Starting Experiment: grid_exp_70_30_stem_iter2_h128_d0.1_lr0.0001_b32_l1
+2025-02-23 15:25:33,058 - INFO - Epoch 1/5
+2025-02-23 15:25:33,059 - INFO - Train Loss: 0.5435, Train F1: 0.6850
+2025-02-23 15:25:33,059 - INFO - Val Loss: 0.4997, Val F1: 0.7306
+2025-02-23 15:32:04,903 - INFO - Epoch 2/5
+2025-02-23 15:32:04,903 - INFO - Train Loss: 0.4936, Train F1: 0.7394
+2025-02-23 15:32:04,903 - INFO - Val Loss: 0.4865, Val F1: 0.7475
+2025-02-23 15:38:43,075 - INFO - Epoch 3/5
+2025-02-23 15:38:43,075 - INFO - Train Loss: 0.4803, Train F1: 0.7506
+2025-02-23 15:38:43,075 - INFO - Val Loss: 0.4838, Val F1: 0.7569
+2025-02-23 15:45:17,060 - INFO - Epoch 4/5
+2025-02-23 15:45:17,061 - INFO - Train Loss: 0.4680, Train F1: 0.7655
+2025-02-23 15:45:17,061 - INFO - Val Loss: 0.4799, Val F1: 0.7561
+2025-02-23 15:51:50,460 - INFO - Epoch 5/5
+2025-02-23 15:51:50,461 - INFO - Train Loss: 0.4544, Train F1: 0.7701
+2025-02-23 15:51:50,461 - INFO - Val Loss: 0.4818, Val F1: 0.7631
+2025-02-23 15:51:50,464 - INFO - Completed Experiment: grid_exp_70_30_stem_iter2_h128_d0.1_lr0.0001_b32_l1
+2025-02-23 15:51:50,464 - INFO - Best F1 Score: 0.7631
+2025-02-23 15:51:50,464 - INFO - 
+Starting Experiment: grid_exp_70_30_stem_iter3_h128_d0.1_lr0.0001_b32_l2
+2025-02-23 15:59:42,739 - INFO - Epoch 1/5
+2025-02-23 15:59:42,739 - INFO - Train Loss: 0.5288, Train F1: 0.7042
+2025-02-23 15:59:42,739 - INFO - Val Loss: 0.4923, Val F1: 0.7471
+2025-02-23 16:07:35,085 - INFO - Epoch 2/5
+2025-02-23 16:07:35,085 - INFO - Train Loss: 0.4896, Train F1: 0.7486
+2025-02-23 16:07:35,085 - INFO - Val Loss: 0.4861, Val F1: 0.7495
+2025-02-23 16:15:25,993 - INFO - Epoch 3/5
+2025-02-23 16:15:25,993 - INFO - Train Loss: 0.4683, Train F1: 0.7629
+2025-02-23 16:15:25,993 - INFO - Val Loss: 0.4757, Val F1: 0.7549
+2025-02-23 16:23:28,492 - INFO - Epoch 4/5
+2025-02-23 16:23:28,492 - INFO - Train Loss: 0.4617, Train F1: 0.7674
+2025-02-23 16:23:28,492 - INFO - Val Loss: 0.4764, Val F1: 0.7552
+2025-02-23 16:31:24,780 - INFO - Epoch 5/5
+2025-02-23 16:31:24,780 - INFO - Train Loss: 0.4390, Train F1: 0.7832
+2025-02-23 16:31:24,780 - INFO - Val Loss: 0.4825, Val F1: 0.7469
+2025-02-23 16:31:24,781 - INFO - Completed Experiment: grid_exp_70_30_stem_iter3_h128_d0.1_lr0.0001_b32_l2
+2025-02-23 16:31:24,781 - INFO - Best F1 Score: 0.7552
+2025-02-23 16:31:24,781 - INFO - 
+Starting Experiment: grid_exp_70_30_stem_iter4_h128_d0.1_lr0.0003_b16_l1
+2025-02-23 16:39:21,271 - INFO - Epoch 1/5
+2025-02-23 16:39:21,271 - INFO - Train Loss: 0.5202, Train F1: 0.7204
+2025-02-23 16:39:21,271 - INFO - Val Loss: 0.4835, Val F1: 0.7481
+2025-02-23 16:47:24,753 - INFO - Epoch 2/5
+2025-02-23 16:47:24,754 - INFO - Train Loss: 0.4816, Train F1: 0.7534
+2025-02-23 16:47:24,754 - INFO - Val Loss: 0.4827, Val F1: 0.7603
+2025-02-23 16:55:21,750 - INFO - Epoch 3/5
+2025-02-23 16:55:21,751 - INFO - Train Loss: 0.4523, Train F1: 0.7764
+2025-02-23 16:55:21,751 - INFO - Val Loss: 0.4794, Val F1: 0.7687
+2025-02-23 17:03:22,474 - INFO - Epoch 4/5
+2025-02-23 17:03:22,475 - INFO - Train Loss: 0.4210, Train F1: 0.7970
+2025-02-23 17:03:22,475 - INFO - Val Loss: 0.4789, Val F1: 0.7630
+2025-02-23 17:12:15,827 - INFO - Epoch 5/5
+2025-02-23 17:12:15,827 - INFO - Train Loss: 0.3692, Train F1: 0.8267
+2025-02-23 17:12:15,827 - INFO - Val Loss: 0.5288, Val F1: 0.7353
+2025-02-23 17:12:15,829 - INFO - Completed Experiment: grid_exp_70_30_stem_iter4_h128_d0.1_lr0.0003_b16_l1
+2025-02-23 17:12:15,829 - INFO - Best F1 Score: 0.7687
+2025-02-23 17:12:15,829 - INFO - 
+Starting Scenario 2
+2025-02-23 17:12:15,830 - INFO - Split: 70_30, Stemming: False
+2025-02-23 17:12:17,245 - INFO - 
+Starting Experiment: grid_exp_70_30_nostem_iter0_h128_d0.1_lr0.0001_b16_l1
+2025-02-23 17:21:55,317 - INFO - Epoch 1/5
+2025-02-23 17:21:55,317 - INFO - Train Loss: 0.5197, Train F1: 0.7180
+2025-02-23 17:21:55,317 - INFO - Val Loss: 0.5065, Val F1: 0.7478
+2025-02-23 17:32:12,786 - INFO - Epoch 2/5
+2025-02-23 17:32:12,787 - INFO - Train Loss: 0.4796, Train F1: 0.7523
+2025-02-23 17:32:12,787 - INFO - Val Loss: 0.4816, Val F1: 0.7607
+2025-02-23 17:41:48,996 - INFO - Epoch 3/5
+2025-02-23 17:41:48,997 - INFO - Train Loss: 0.4667, Train F1: 0.7610
+2025-02-23 17:41:48,997 - INFO - Val Loss: 0.4767, Val F1: 0.7664
+2025-02-23 17:51:11,668 - INFO - Epoch 4/5
+2025-02-23 17:51:11,669 - INFO - Train Loss: 0.4483, Train F1: 0.7768
+2025-02-23 17:51:11,669 - INFO - Val Loss: 0.4922, Val F1: 0.7475
+2025-02-23 17:59:55,907 - INFO - Epoch 5/5
+2025-02-23 17:59:55,908 - INFO - Train Loss: 0.4345, Train F1: 0.7883
+2025-02-23 17:59:55,908 - INFO - Val Loss: 0.4759, Val F1: 0.7691
+2025-02-23 17:59:55,913 - INFO - Completed Experiment: grid_exp_70_30_nostem_iter0_h128_d0.1_lr0.0001_b16_l1
+2025-02-23 17:59:55,913 - INFO - Best F1 Score: 0.7691
+2025-02-23 17:59:55,913 - INFO - 
+Starting Experiment: grid_exp_70_30_nostem_iter1_h128_d0.1_lr0.0001_b16_l2
+2025-02-23 18:11:26,222 - INFO - Epoch 1/5
+2025-02-23 18:11:26,223 - INFO - Train Loss: 0.5163, Train F1: 0.7217
+2025-02-23 18:11:26,223 - INFO - Val Loss: 0.5005, Val F1: 0.7276
+2025-02-23 18:22:43,601 - INFO - Epoch 2/5
+2025-02-23 18:22:43,602 - INFO - Train Loss: 0.4794, Train F1: 0.7589
+2025-02-23 18:22:43,602 - INFO - Val Loss: 0.4788, Val F1: 0.7576
+2025-02-23 18:31:27,200 - INFO - Epoch 3/5
+2025-02-23 18:31:27,200 - INFO - Train Loss: 0.4604, Train F1: 0.7683
+2025-02-23 18:31:27,201 - INFO - Val Loss: 0.4827, Val F1: 0.7621
+2025-02-23 18:39:37,405 - INFO - Epoch 4/5
+2025-02-23 18:39:37,405 - INFO - Train Loss: 0.4463, Train F1: 0.7823
+2025-02-23 18:39:37,405 - INFO - Val Loss: 0.4857, Val F1: 0.7616
+2025-02-23 18:47:49,030 - INFO - Epoch 5/5
+2025-02-23 18:47:49,030 - INFO - Train Loss: 0.4226, Train F1: 0.7968
+2025-02-23 18:47:49,030 - INFO - Val Loss: 0.4892, Val F1: 0.7681
+2025-02-23 18:47:49,039 - INFO - Completed Experiment: grid_exp_70_30_nostem_iter1_h128_d0.1_lr0.0001_b16_l2
+2025-02-23 18:47:49,039 - INFO - Best F1 Score: 0.7681
+2025-02-23 18:47:49,039 - INFO - 
+Starting Experiment: grid_exp_70_30_nostem_iter2_h128_d0.1_lr0.0001_b32_l1
+2025-02-23 18:53:37,559 - INFO - Epoch 1/5
+2025-02-23 18:53:37,560 - INFO - Train Loss: 0.5318, Train F1: 0.6961
+2025-02-23 18:53:37,560 - INFO - Val Loss: 0.4925, Val F1: 0.7436
+2025-02-23 18:59:41,537 - INFO - Epoch 2/5
+2025-02-23 18:59:41,538 - INFO - Train Loss: 0.4811, Train F1: 0.7529
+2025-02-23 18:59:41,538 - INFO - Val Loss: 0.4811, Val F1: 0.7557
+2025-02-23 19:05:45,234 - INFO - Epoch 3/5
+2025-02-23 19:05:45,239 - INFO - Train Loss: 0.4687, Train F1: 0.7617
+2025-02-23 19:05:45,239 - INFO - Val Loss: 0.4744, Val F1: 0.7622
+2025-02-23 19:11:42,315 - INFO - Epoch 4/5
+2025-02-23 19:11:42,315 - INFO - Train Loss: 0.4555, Train F1: 0.7733
+2025-02-23 19:11:42,315 - INFO - Val Loss: 0.4715, Val F1: 0.7687
+2025-02-23 19:17:39,603 - INFO - Epoch 5/5
+2025-02-23 19:17:39,603 - INFO - Train Loss: 0.4425, Train F1: 0.7804
+2025-02-23 19:17:39,603 - INFO - Val Loss: 0.4708, Val F1: 0.7666
+2025-02-23 19:17:39,606 - INFO - Completed Experiment: grid_exp_70_30_nostem_iter2_h128_d0.1_lr0.0001_b32_l1
+2025-02-23 19:17:39,606 - INFO - Best F1 Score: 0.7687
+2025-02-23 19:17:39,606 - INFO - 
+Starting Experiment: grid_exp_70_30_nostem_iter3_h128_d0.1_lr0.0001_b32_l2
+2025-02-23 19:24:31,466 - INFO - Epoch 1/5
+2025-02-23 19:24:31,467 - INFO - Train Loss: 0.5221, Train F1: 0.7093
+2025-02-23 19:24:31,467 - INFO - Val Loss: 0.4875, Val F1: 0.7400
+2025-02-23 19:31:33,844 - INFO - Epoch 2/5
+2025-02-23 19:31:33,847 - INFO - Train Loss: 0.4781, Train F1: 0.7522
+2025-02-23 19:31:33,847 - INFO - Val Loss: 0.4900, Val F1: 0.7366
+2025-02-23 19:38:36,399 - INFO - Epoch 3/5
+2025-02-23 19:38:36,401 - INFO - Train Loss: 0.4649, Train F1: 0.7674
+2025-02-23 19:38:36,401 - INFO - Val Loss: 0.4835, Val F1: 0.7625
+2025-02-23 19:45:41,821 - INFO - Epoch 4/5
+2025-02-23 19:45:41,822 - INFO - Train Loss: 0.4501, Train F1: 0.7735
+2025-02-23 19:45:41,822 - INFO - Val Loss: 0.4714, Val F1: 0.7640
+2025-02-23 19:52:11,275 - INFO - Epoch 5/5
+2025-02-23 19:52:11,275 - INFO - Train Loss: 0.4340, Train F1: 0.7869
+2025-02-23 19:52:11,275 - INFO - Val Loss: 0.4738, Val F1: 0.7714
+2025-02-23 19:52:11,279 - INFO - Completed Experiment: grid_exp_70_30_nostem_iter3_h128_d0.1_lr0.0001_b32_l2
+2025-02-23 19:52:11,279 - INFO - Best F1 Score: 0.7714
+2025-02-23 19:52:11,279 - INFO - 
+Starting Experiment: grid_exp_70_30_nostem_iter4_h128_d0.1_lr0.0003_b16_l1
+2025-02-23 19:58:40,738 - INFO - Epoch 1/5
+2025-02-23 19:58:40,738 - INFO - Train Loss: 0.5113, Train F1: 0.7309
+2025-02-23 19:58:40,738 - INFO - Val Loss: 0.4826, Val F1: 0.7559
+2025-02-23 20:05:13,635 - INFO - Epoch 2/5
+2025-02-23 20:05:13,635 - INFO - Train Loss: 0.4696, Train F1: 0.7646
+2025-02-23 20:05:13,635 - INFO - Val Loss: 0.4727, Val F1: 0.7529
+2025-02-23 20:11:23,638 - INFO - Epoch 3/5
+2025-02-23 20:11:23,639 - INFO - Train Loss: 0.4450, Train F1: 0.7793
+2025-02-23 20:11:23,639 - INFO - Val Loss: 0.4759, Val F1: 0.7652
+2025-02-23 20:17:27,797 - INFO - Epoch 4/5
+2025-02-23 20:17:27,797 - INFO - Train Loss: 0.4085, Train F1: 0.8115
+2025-02-23 20:17:27,797 - INFO - Val Loss: 0.4903, Val F1: 0.7639
+2025-02-23 20:23:30,526 - INFO - Epoch 5/5
+2025-02-23 20:23:30,527 - INFO - Train Loss: 0.3628, Train F1: 0.8324
+2025-02-23 20:23:30,527 - INFO - Val Loss: 0.4908, Val F1: 0.7681
+2025-02-23 20:23:30,529 - INFO - Completed Experiment: grid_exp_70_30_nostem_iter4_h128_d0.1_lr0.0003_b16_l1
+2025-02-23 20:23:30,529 - INFO - Best F1 Score: 0.7681
+2025-02-23 20:23:30,529 - INFO - 
+Starting Scenario 3
+2025-02-23 20:23:30,529 - INFO - Split: 80_20, Stemming: True
+2025-02-23 20:23:31,641 - INFO - 
+Starting Experiment: grid_exp_80_20_stem_iter0_h128_d0.1_lr0.0001_b16_l1
+2025-02-23 20:29:49,821 - INFO - Epoch 1/5
+2025-02-23 20:29:49,822 - INFO - Train Loss: 0.5233, Train F1: 0.7099
+2025-02-23 20:29:49,822 - INFO - Val Loss: 0.4962, Val F1: 0.7296
+2025-02-23 20:36:05,126 - INFO - Epoch 2/5
+2025-02-23 20:36:05,127 - INFO - Train Loss: 0.4858, Train F1: 0.7494
+2025-02-23 20:36:05,127 - INFO - Val Loss: 0.4909, Val F1: 0.7657
+2025-02-23 20:42:30,885 - INFO - Epoch 3/5
+2025-02-23 20:42:30,886 - INFO - Train Loss: 0.4726, Train F1: 0.7608
+2025-02-23 20:42:30,886 - INFO - Val Loss: 0.4740, Val F1: 0.7603
+2025-02-23 20:48:50,287 - INFO - Epoch 4/5
+2025-02-23 20:48:50,288 - INFO - Train Loss: 0.4566, Train F1: 0.7738
+2025-02-23 20:48:50,288 - INFO - Val Loss: 0.4716, Val F1: 0.7712
+2025-02-23 20:55:02,185 - INFO - Epoch 5/5
+2025-02-23 20:55:02,187 - INFO - Train Loss: 0.4388, Train F1: 0.7883
+2025-02-23 20:55:02,187 - INFO - Val Loss: 0.4708, Val F1: 0.7673
+2025-02-23 20:55:02,190 - INFO - Completed Experiment: grid_exp_80_20_stem_iter0_h128_d0.1_lr0.0001_b16_l1
+2025-02-23 20:55:02,190 - INFO - Best F1 Score: 0.7712
+2025-02-23 20:55:02,190 - INFO - 
+Starting Experiment: grid_exp_80_20_stem_iter1_h128_d0.1_lr0.0001_b16_l2
+2025-02-23 21:03:19,488 - INFO - Epoch 1/5
+2025-02-23 21:03:19,488 - INFO - Train Loss: 0.5214, Train F1: 0.7130
+2025-02-23 21:03:19,488 - INFO - Val Loss: 0.4934, Val F1: 0.7308
+2025-02-23 21:11:44,145 - INFO - Epoch 2/5
+2025-02-23 21:11:44,145 - INFO - Train Loss: 0.4841, Train F1: 0.7499
+2025-02-23 21:11:44,145 - INFO - Val Loss: 0.4918, Val F1: 0.7472
+2025-02-23 21:20:03,962 - INFO - Epoch 3/5
+2025-02-23 21:20:03,963 - INFO - Train Loss: 0.4657, Train F1: 0.7653
+2025-02-23 21:20:03,963 - INFO - Val Loss: 0.4748, Val F1: 0.7582
+2025-02-23 21:28:38,709 - INFO - Epoch 4/5
+2025-02-23 21:28:38,709 - INFO - Train Loss: 0.4491, Train F1: 0.7773
+2025-02-23 21:28:38,709 - INFO - Val Loss: 0.4737, Val F1: 0.7654
+2025-02-23 21:36:55,347 - INFO - Epoch 5/5
+2025-02-23 21:36:55,347 - INFO - Train Loss: 0.4260, Train F1: 0.7942
+2025-02-23 21:36:55,347 - INFO - Val Loss: 0.4880, Val F1: 0.7571
+2025-02-23 21:36:55,351 - INFO - Completed Experiment: grid_exp_80_20_stem_iter1_h128_d0.1_lr0.0001_b16_l2
+2025-02-23 21:36:55,351 - INFO - Best F1 Score: 0.7654
+2025-02-23 21:36:55,351 - INFO - 
+Starting Experiment: grid_exp_80_20_stem_iter2_h128_d0.1_lr0.0001_b32_l1
+2025-02-23 21:42:28,692 - INFO - Epoch 1/5
+2025-02-23 21:42:28,693 - INFO - Train Loss: 0.5286, Train F1: 0.7050
+2025-02-23 21:42:28,694 - INFO - Val Loss: 0.4933, Val F1: 0.7525
+2025-02-23 21:48:21,262 - INFO - Epoch 2/5
+2025-02-23 21:48:21,263 - INFO - Train Loss: 0.4899, Train F1: 0.7452
+2025-02-23 21:48:21,263 - INFO - Val Loss: 0.4808, Val F1: 0.7654
+2025-02-23 21:54:21,625 - INFO - Epoch 3/5
+2025-02-23 21:54:21,627 - INFO - Train Loss: 0.4759, Train F1: 0.7550
+2025-02-23 21:54:21,627 - INFO - Val Loss: 0.4788, Val F1: 0.7522
+2025-02-23 22:00:20,042 - INFO - Epoch 4/5
+2025-02-23 22:00:20,043 - INFO - Train Loss: 0.4638, Train F1: 0.7622
+2025-02-23 22:00:20,043 - INFO - Val Loss: 0.4738, Val F1: 0.7635
+2025-02-23 22:06:27,445 - INFO - Epoch 5/5
+2025-02-23 22:06:27,446 - INFO - Train Loss: 0.4536, Train F1: 0.7722
+2025-02-23 22:06:27,446 - INFO - Val Loss: 0.4754, Val F1: 0.7630
+2025-02-23 22:06:27,451 - INFO - Completed Experiment: grid_exp_80_20_stem_iter2_h128_d0.1_lr0.0001_b32_l1
+2025-02-23 22:06:27,451 - INFO - Best F1 Score: 0.7654
+2025-02-23 22:06:27,451 - INFO - 
+Starting Experiment: grid_exp_80_20_stem_iter3_h128_d0.1_lr0.0001_b32_l2
+2025-02-23 22:13:32,315 - INFO - Epoch 1/5
+2025-02-23 22:13:32,316 - INFO - Train Loss: 0.5287, Train F1: 0.7038
+2025-02-23 22:13:32,316 - INFO - Val Loss: 0.4854, Val F1: 0.7457
+2025-02-23 22:20:31,845 - INFO - Epoch 2/5
+2025-02-23 22:20:31,846 - INFO - Train Loss: 0.4852, Train F1: 0.7504
+2025-02-23 22:20:31,846 - INFO - Val Loss: 0.4766, Val F1: 0.7583
+2025-02-23 22:27:43,466 - INFO - Epoch 3/5
+2025-02-23 22:27:43,468 - INFO - Train Loss: 0.4670, Train F1: 0.7668
+2025-02-23 22:27:43,468 - INFO - Val Loss: 0.5104, Val F1: 0.7412
+2025-02-23 22:35:13,630 - INFO - Epoch 4/5
+2025-02-23 22:35:13,631 - INFO - Train Loss: 0.4573, Train F1: 0.7722
+2025-02-23 22:35:13,631 - INFO - Val Loss: 0.4736, Val F1: 0.7721
+2025-02-23 22:42:50,581 - INFO - Epoch 5/5
+2025-02-23 22:42:50,582 - INFO - Train Loss: 0.4398, Train F1: 0.7867
+2025-02-23 22:42:50,582 - INFO - Val Loss: 0.4886, Val F1: 0.7513
+2025-02-23 22:42:50,586 - INFO - Completed Experiment: grid_exp_80_20_stem_iter3_h128_d0.1_lr0.0001_b32_l2
+2025-02-23 22:42:50,586 - INFO - Best F1 Score: 0.7721
+2025-02-23 22:42:50,587 - INFO - 
+Starting Experiment: grid_exp_80_20_stem_iter4_h128_d0.1_lr0.0003_b16_l1
+2025-02-23 22:49:39,774 - INFO - Epoch 1/5
+2025-02-23 22:49:39,775 - INFO - Train Loss: 0.5178, Train F1: 0.7224
+2025-02-23 22:49:39,775 - INFO - Val Loss: 0.4825, Val F1: 0.7567
+2025-02-23 22:56:00,976 - INFO - Epoch 2/5
+2025-02-23 22:56:00,977 - INFO - Train Loss: 0.4786, Train F1: 0.7538
+2025-02-23 22:56:00,977 - INFO - Val Loss: 0.4738, Val F1: 0.7492
+2025-02-23 23:03:20,289 - INFO - Epoch 3/5
+2025-02-23 23:03:20,290 - INFO - Train Loss: 0.4478, Train F1: 0.7816
+2025-02-23 23:03:20,290 - INFO - Val Loss: 0.4716, Val F1: 0.7694
+2025-02-23 23:11:23,315 - INFO - Epoch 4/5
+2025-02-23 23:11:23,316 - INFO - Train Loss: 0.4173, Train F1: 0.7980
+2025-02-23 23:11:23,317 - INFO - Val Loss: 0.4830, Val F1: 0.7645
+2025-02-23 23:19:48,418 - INFO - Epoch 5/5
+2025-02-23 23:19:48,420 - INFO - Train Loss: 0.3711, Train F1: 0.8279
+2025-02-23 23:19:48,420 - INFO - Val Loss: 0.5118, Val F1: 0.7630
+2025-02-23 23:19:48,426 - INFO - Completed Experiment: grid_exp_80_20_stem_iter4_h128_d0.1_lr0.0003_b16_l1
+2025-02-23 23:19:48,426 - INFO - Best F1 Score: 0.7694
+2025-02-23 23:19:48,427 - INFO - 
+Starting Scenario 4
+2025-02-23 23:19:48,427 - INFO - Split: 80_20, Stemming: False
+2025-02-23 23:19:50,213 - INFO - 
+Starting Experiment: grid_exp_80_20_nostem_iter0_h128_d0.1_lr0.0001_b16_l1
+2025-02-23 23:28:32,559 - INFO - Epoch 1/5
+2025-02-23 23:28:32,560 - INFO - Train Loss: 0.5160, Train F1: 0.7187
+2025-02-23 23:28:32,561 - INFO - Val Loss: 0.4843, Val F1: 0.7514
+2025-02-23 23:37:43,608 - INFO - Epoch 2/5
+2025-02-23 23:37:43,609 - INFO - Train Loss: 0.4776, Train F1: 0.7538
+2025-02-23 23:37:43,610 - INFO - Val Loss: 0.4772, Val F1: 0.7672
+2025-02-23 23:47:50,187 - INFO - Epoch 3/5
+2025-02-23 23:47:50,189 - INFO - Train Loss: 0.4619, Train F1: 0.7698
+2025-02-23 23:47:50,190 - INFO - Val Loss: 0.4728, Val F1: 0.7686
+2025-02-23 23:57:02,465 - INFO - Epoch 4/5
+2025-02-23 23:57:02,466 - INFO - Train Loss: 0.4481, Train F1: 0.7748
+2025-02-23 23:57:02,466 - INFO - Val Loss: 0.4716, Val F1: 0.7701
+2025-02-24 00:06:28,264 - INFO - Epoch 5/5
+2025-02-24 00:06:28,266 - INFO - Train Loss: 0.4329, Train F1: 0.7858
+2025-02-24 00:06:28,266 - INFO - Val Loss: 0.4686, Val F1: 0.7719
+2025-02-24 00:06:28,274 - INFO - Completed Experiment: grid_exp_80_20_nostem_iter0_h128_d0.1_lr0.0001_b16_l1
+2025-02-24 00:06:28,276 - INFO - Best F1 Score: 0.7719
+2025-02-24 00:06:28,276 - INFO - 
+Starting Experiment: grid_exp_80_20_nostem_iter1_h128_d0.1_lr0.0001_b16_l2
+2025-02-24 00:18:09,912 - INFO - Epoch 1/5
+2025-02-24 00:18:09,913 - INFO - Train Loss: 0.5090, Train F1: 0.7272
+2025-02-24 00:18:09,913 - INFO - Val Loss: 0.4873, Val F1: 0.7494
+2025-02-24 00:28:58,897 - INFO - Epoch 2/5
+2025-02-24 00:28:58,898 - INFO - Train Loss: 0.4761, Train F1: 0.7598
+2025-02-24 00:28:58,898 - INFO - Val Loss: 0.4754, Val F1: 0.7657
+2025-02-24 00:41:36,139 - INFO - Epoch 3/5
+2025-02-24 00:41:36,140 - INFO - Train Loss: 0.4553, Train F1: 0.7741
+2025-02-24 00:41:36,140 - INFO - Val Loss: 0.4779, Val F1: 0.7716
+2025-02-24 00:54:16,890 - INFO - Epoch 4/5
+2025-02-24 00:54:16,891 - INFO - Train Loss: 0.4378, Train F1: 0.7872
+2025-02-24 00:54:16,891 - INFO - Val Loss: 0.4703, Val F1: 0.7724
+2025-02-24 01:06:20,193 - INFO - Epoch 5/5
+2025-02-24 01:06:20,194 - INFO - Train Loss: 0.4178, Train F1: 0.7980
+2025-02-24 01:06:20,194 - INFO - Val Loss: 0.4794, Val F1: 0.7718
+2025-02-24 01:06:20,211 - INFO - Completed Experiment: grid_exp_80_20_nostem_iter1_h128_d0.1_lr0.0001_b16_l2
+2025-02-24 01:06:20,212 - INFO - Best F1 Score: 0.7724
+2025-02-24 01:06:20,212 - INFO - 
+Starting Experiment: grid_exp_80_20_nostem_iter2_h128_d0.1_lr0.0001_b32_l1
+2025-02-24 01:14:19,541 - INFO - Epoch 1/5
+2025-02-24 01:14:19,542 - INFO - Train Loss: 0.5242, Train F1: 0.7059
+2025-02-24 01:14:19,542 - INFO - Val Loss: 0.4925, Val F1: 0.7562
+2025-02-24 01:21:11,552 - INFO - Epoch 2/5
+2025-02-24 01:21:11,553 - INFO - Train Loss: 0.4821, Train F1: 0.7481
+2025-02-24 01:21:11,553 - INFO - Val Loss: 0.4774, Val F1: 0.7591
+2025-02-24 01:28:41,745 - INFO - Epoch 3/5
+2025-02-24 01:28:41,746 - INFO - Train Loss: 0.4692, Train F1: 0.7614
+2025-02-24 01:28:41,746 - INFO - Val Loss: 0.4745, Val F1: 0.7668
+2025-02-24 01:36:33,860 - INFO - Epoch 4/5
+2025-02-24 01:36:33,860 - INFO - Train Loss: 0.4563, Train F1: 0.7753
+2025-02-24 01:36:33,861 - INFO - Val Loss: 0.4701, Val F1: 0.7640
+2025-02-24 01:44:03,844 - INFO - Epoch 5/5
+2025-02-24 01:44:03,845 - INFO - Train Loss: 0.4450, Train F1: 0.7803
+2025-02-24 01:44:03,845 - INFO - Val Loss: 0.4789, Val F1: 0.7698
+2025-02-24 01:44:03,847 - INFO - Completed Experiment: grid_exp_80_20_nostem_iter2_h128_d0.1_lr0.0001_b32_l1
+2025-02-24 01:44:03,847 - INFO - Best F1 Score: 0.7698
+2025-02-24 01:44:03,847 - INFO - 
+Starting Experiment: grid_exp_80_20_nostem_iter3_h128_d0.1_lr0.0001_b32_l2
+2025-02-24 01:53:15,393 - INFO - Epoch 1/5
+2025-02-24 01:53:15,395 - INFO - Train Loss: 0.5211, Train F1: 0.7131
+2025-02-24 01:53:15,395 - INFO - Val Loss: 0.4878, Val F1: 0.7447
+2025-02-24 02:02:29,157 - INFO - Epoch 2/5
+2025-02-24 02:02:29,158 - INFO - Train Loss: 0.4797, Train F1: 0.7526
+2025-02-24 02:02:29,158 - INFO - Val Loss: 0.4906, Val F1: 0.7624
+2025-02-24 02:11:26,524 - INFO - Epoch 3/5
+2025-02-24 02:11:26,525 - INFO - Train Loss: 0.4634, Train F1: 0.7673
+2025-02-24 02:11:26,525 - INFO - Val Loss: 0.4715, Val F1: 0.7575
+2025-02-24 02:20:39,244 - INFO - Epoch 4/5
+2025-02-24 02:20:39,244 - INFO - Train Loss: 0.4496, Train F1: 0.7808
+2025-02-24 02:20:39,244 - INFO - Val Loss: 0.4826, Val F1: 0.7661
+2025-02-24 02:31:02,784 - INFO - Epoch 5/5
+2025-02-24 02:31:02,788 - INFO - Train Loss: 0.4336, Train F1: 0.7886
+2025-02-24 02:31:02,788 - INFO - Val Loss: 0.4747, Val F1: 0.7700
+2025-02-24 02:31:02,792 - INFO - Completed Experiment: grid_exp_80_20_nostem_iter3_h128_d0.1_lr0.0001_b32_l2
+2025-02-24 02:31:02,792 - INFO - Best F1 Score: 0.7700
+2025-02-24 02:31:02,792 - INFO - 
+Starting Experiment: grid_exp_80_20_nostem_iter4_h128_d0.1_lr0.0003_b16_l1
+2025-02-24 02:40:43,488 - INFO - Epoch 1/5
+2025-02-24 02:40:43,488 - INFO - Train Loss: 0.5106, Train F1: 0.7285
+2025-02-24 02:40:43,489 - INFO - Val Loss: 0.4780, Val F1: 0.7597
+2025-02-24 02:51:24,621 - INFO - Epoch 2/5
+2025-02-24 02:51:24,622 - INFO - Train Loss: 0.4734, Train F1: 0.7595
+2025-02-24 02:51:24,630 - INFO - Val Loss: 0.4743, Val F1: 0.7674
+2025-02-24 03:02:17,444 - INFO - Epoch 3/5
+2025-02-24 03:02:17,446 - INFO - Train Loss: 0.4510, Train F1: 0.7775
+2025-02-24 03:02:17,446 - INFO - Val Loss: 0.4633, Val F1: 0.7801
+2025-02-24 03:12:43,431 - INFO - Epoch 4/5
+2025-02-24 03:12:43,432 - INFO - Train Loss: 0.4222, Train F1: 0.7965
+2025-02-24 03:12:43,433 - INFO - Val Loss: 0.4736, Val F1: 0.7787
+2025-02-24 03:23:40,021 - INFO - Epoch 5/5
+2025-02-24 03:23:40,022 - INFO - Train Loss: 0.3765, Train F1: 0.8265
+2025-02-24 03:23:40,022 - INFO - Val Loss: 0.4905, Val F1: 0.7647
+2025-02-24 03:23:40,030 - INFO - Completed Experiment: grid_exp_80_20_nostem_iter4_h128_d0.1_lr0.0003_b16_l1
+2025-02-24 03:23:40,030 - INFO - Best F1 Score: 0.7801
+2025-02-24 03:23:40,030 - INFO - 
+Grid Search completed in 13.46 hours

@@ -1,0 +1,96 @@
+2025-02-18 19:48:19,015 - experiment - INFO - Setting up experiment: split_70-30_with_stemming_dim_768
+2025-02-18 19:48:19,016 - experiment - INFO - Configuration:
+2025-02-18 19:48:19,016 - experiment - INFO - - Stemming mode: with_stemming
+2025-02-18 19:48:19,016 - experiment - INFO - - Split mode: 70_30
+2025-02-18 19:48:19,016 - experiment - INFO - - Dimension: 768
+2025-02-18 19:48:19,016 - experiment - INFO - Starting experiment: split_70-30_with_stemming_dim_768
+2025-02-18 19:48:19,016 - experiment - INFO - Starting grid search for with_stemming, 70_30, dim=768
+2025-02-18 20:02:11,444 - experiment - ERROR - Error in parameter combination {'gru_hidden_size': 512, 'gru_dropout': 0.1, 'learning_rate': 1e-05, 'gru_bidirectional': True, 'gru_num_layers': 2, 'batch_size': 16, 'weight_decay': 0.01, 'warmup_ratio': 0.1, 'patience': 3, 'min_delta': 0.0001}: min() arg is an empty sequence
+2025-02-18 20:11:22,319 - experiment - ERROR - Error in parameter combination {'gru_hidden_size': 512, 'gru_dropout': 0.1, 'learning_rate': 5e-05, 'gru_bidirectional': True, 'gru_num_layers': 2, 'batch_size': 16, 'weight_decay': 0.01, 'warmup_ratio': 0.1, 'patience': 3, 'min_delta': 0.0001}: min() arg is an empty sequence
+2025-02-18 21:00:36,498 - experiment - ERROR - Error in parameter combination {'gru_hidden_size': 512, 'gru_dropout': 0.3, 'learning_rate': 1e-05, 'gru_bidirectional': True, 'gru_num_layers': 2, 'batch_size': 16, 'weight_decay': 0.01, 'warmup_ratio': 0.1, 'patience': 3, 'min_delta': 0.0001}: min() arg is an empty sequence
+2025-02-19 00:59:31,262 - experiment - ERROR - Error in parameter combination {'gru_hidden_size': 512, 'gru_dropout': 0.3, 'learning_rate': 5e-05, 'gru_bidirectional': True, 'gru_num_layers': 2, 'batch_size': 16, 'weight_decay': 0.01, 'warmup_ratio': 0.1, 'patience': 3, 'min_delta': 0.0001}: min() arg is an empty sequence
+2025-02-19 01:42:39,163 - experiment - ERROR - Error in parameter combination {'gru_hidden_size': 1024, 'gru_dropout': 0.1, 'learning_rate': 1e-05, 'gru_bidirectional': True, 'gru_num_layers': 2, 'batch_size': 16, 'weight_decay': 0.01, 'warmup_ratio': 0.1, 'patience': 3, 'min_delta': 0.0001}: min() arg is an empty sequence
+2025-02-19 01:48:30,118 - experiment - ERROR - Error in parameter combination {'gru_hidden_size': 1024, 'gru_dropout': 0.1, 'learning_rate': 5e-05, 'gru_bidirectional': True, 'gru_num_layers': 2, 'batch_size': 16, 'weight_decay': 0.01, 'warmup_ratio': 0.1, 'patience': 3, 'min_delta': 0.0001}: DataLoader worker (pid 67399) exited unexpectedly with exit code 1. Details are lost due to multiprocessing. Rerunning with num_workers=0 may give better error trace.
+2025-02-19 07:17:47,577 - experiment - ERROR - Error in parameter combination {'gru_hidden_size': 1024, 'gru_dropout': 0.3, 'learning_rate': 1e-05, 'gru_bidirectional': True, 'gru_num_layers': 2, 'batch_size': 16, 'weight_decay': 0.01, 'warmup_ratio': 0.1, 'patience': 3, 'min_delta': 0.0001}: min() arg is an empty sequence
+2025-02-19 19:19:30,490 - experiment - ERROR - Error in experiment: [Errno 2] No such file or directory: '/Users/ms/Downloads/PROPOSAL/FINAL CODE FOR PAPER DETECTION/results/plots/split_70-30_with_stemming_dim_768/training_history.png'
+2025-02-19 19:39:00,468 - experiment - INFO - Setting up experiment: split_70-30_with_stemming_dim_768
+2025-02-19 19:39:00,469 - experiment - INFO - Configuration:
+2025-02-19 19:39:00,469 - experiment - INFO - - Stemming mode: with_stemming
+2025-02-19 19:39:00,469 - experiment - INFO - - Split mode: 70_30
+2025-02-19 19:39:00,469 - experiment - INFO - - Dimension: 768
+2025-02-19 19:39:00,469 - experiment - INFO - Starting experiment: split_70-30_with_stemming_dim_768
+2025-02-19 20:41:09,231 - experiment - ERROR - Error in experiment: [Errno 2] No such file or directory: '/Users/ms/Downloads/PROPOSAL/FINAL CODE FOR PAPER DETECTION/results/plots/split_70-30_with_stemming_dim_768/training_history.png'
+2025-02-19 20:43:41,490 - experiment - INFO - Setting up experiment: split_70-30_with_stemming_dim_768
+2025-02-19 20:43:41,490 - experiment - INFO - Configuration:
+2025-02-19 20:43:41,490 - experiment - INFO - - Stemming mode: with_stemming
+2025-02-19 20:43:41,490 - experiment - INFO - - Split mode: 70_30
+2025-02-19 20:43:41,490 - experiment - INFO - - Dimension: 768
+2025-02-19 20:43:41,490 - experiment - INFO - Starting experiment: split_70-30_with_stemming_dim_768
+2025-02-20 00:58:13,101 - experiment - ERROR - Error in experiment: [Errno 2] No such file or directory: '/Users/ms/Downloads/PROPOSAL/FINAL CODE FOR PAPER DETECTION/results/plots/split_70-30_with_stemming_dim_768/training_history.png'
+2025-02-20 01:31:21,152 - experiment - INFO - Setting up experiment: split_70-30_with_stemming_dim_768
+2025-02-20 01:31:21,152 - experiment - INFO - Configuration:
+2025-02-20 01:31:21,152 - experiment - INFO - - Stemming mode: with_stemming
+2025-02-20 01:31:21,152 - experiment - INFO - - Split mode: 70_30
+2025-02-20 01:31:21,152 - experiment - INFO - - Dimension: 768
+2025-02-20 01:31:21,152 - experiment - INFO - Starting experiment: split_70-30_with_stemming_dim_768
+2025-02-20 01:33:16,043 - experiment - ERROR - Error in experiment: [Errno 2] No such file or directory: '/Users/ms/Downloads/PROPOSAL/FINAL CODE FOR PAPER DETECTION/results/plots/split_70-30_with_stemming_dim_768/training_history.png'
+2025-02-20 01:39:03,684 - experiment - INFO - Setting up experiment: split_70-30_with_stemming_dim_768
+2025-02-20 01:39:03,684 - experiment - INFO - Configuration:
+2025-02-20 01:39:03,684 - experiment - INFO - - Stemming mode: with_stemming
+2025-02-20 01:39:03,685 - experiment - INFO - - Split mode: 70_30
+2025-02-20 01:39:03,685 - experiment - INFO - - Dimension: 768
+2025-02-20 01:39:03,685 - experiment - INFO - Starting experiment: split_70-30_with_stemming_dim_768
+2025-02-20 01:59:19,380 - experiment - INFO - Setting up experiment: split_70-30_with_stemming_dim_768
+2025-02-20 01:59:19,380 - experiment - INFO - Configuration:
+2025-02-20 01:59:19,380 - experiment - INFO - - Stemming mode: with_stemming
+2025-02-20 01:59:19,380 - experiment - INFO - - Split mode: 70_30
+2025-02-20 01:59:19,380 - experiment - INFO - - Dimension: 768
+2025-02-20 01:59:19,380 - experiment - INFO - Starting experiment: split_70-30_with_stemming_dim_768
+2025-02-20 02:25:48,218 - experiment - ERROR - Error in experiment: [Errno 2] No such file or directory: '/Users/ms/Downloads/PROPOSAL/FINAL CODE FOR PAPER DETECTION/results/plots/split_70-30_with_stemming_dim_768/training_history.png'
+2025-02-20 03:35:05,810 - experiment - INFO - Setting up experiment: split_70-30_with_stemming_dim_768
+2025-02-20 03:35:05,810 - experiment - INFO - Configuration:
+2025-02-20 03:35:05,810 - experiment - INFO - - Stemming mode: with_stemming
+2025-02-20 03:35:05,810 - experiment - INFO - - Split mode: 70_30
+2025-02-20 03:35:05,810 - experiment - INFO - - Dimension: 768
+2025-02-20 03:35:05,810 - experiment - INFO - Starting experiment: split_70-30_with_stemming_dim_768
+2025-02-20 03:54:29,492 - experiment - INFO - Results saved to /Users/ms/Downloads/PROPOSAL/FINAL CODE FOR PAPER DETECTION/results/reports/evaluation_metrics/split_70-30_with_stemming_dim_768.json
+2025-02-20 05:45:20,695 - experiment - INFO - Setting up experiment: split_70-30_with_stemming_dim_768
+2025-02-20 05:45:20,695 - experiment - INFO - Configuration:
+2025-02-20 05:45:20,695 - experiment - INFO - - Stemming mode: with_stemming
+2025-02-20 05:45:20,695 - experiment - INFO - - Split mode: 70_30
+2025-02-20 05:45:20,695 - experiment - INFO - - Dimension: 768
+2025-02-20 05:45:20,695 - experiment - INFO - Starting experiment: split_70-30_with_stemming_dim_768
+2025-02-20 05:57:58,734 - experiment - INFO - Results saved to /Users/ms/Downloads/PROPOSAL/FINAL CODE FOR PAPER DETECTION/results/reports/evaluation_metrics/split_70-30_with_stemming_dim_768.json
+2025-02-20 19:05:00,719 - experiment - INFO - Setting up experiment: split_70-30_with_stemming_dim_768
+2025-02-20 19:05:00,719 - experiment - INFO - Configuration:
+2025-02-20 19:05:00,720 - experiment - INFO - - Stemming mode: with_stemming
+2025-02-20 19:05:00,720 - experiment - INFO - - Split mode: 70_30
+2025-02-20 19:05:00,720 - experiment - INFO - - Dimension: 768
+2025-02-20 19:05:00,720 - experiment - INFO - Starting experiment: split_70-30_with_stemming_dim_768
+2025-02-20 19:23:14,823 - experiment - INFO - Results saved to /Users/ms/Downloads/PROPOSAL/FINAL CODE FOR PAPER DETECTION/results/reports/evaluation_metrics/split_70-30_with_stemming_dim_768.json
+2025-02-20 19:25:46,229 - experiment - INFO - Setting up experiment: split_70-30_with_stemming_dim_768
+2025-02-20 19:25:46,230 - experiment - INFO - Configuration:
+2025-02-20 19:25:46,230 - experiment - INFO - - Stemming mode: with_stemming
+2025-02-20 19:25:46,230 - experiment - INFO - - Split mode: 70_30
+2025-02-20 19:25:46,230 - experiment - INFO - - Dimension: 768
+2025-02-20 19:25:46,230 - experiment - INFO - Starting experiment: split_70-30_with_stemming_dim_768
+2025-02-20 19:50:57,693 - experiment - INFO - Results saved to /Users/ms/Downloads/PROPOSAL/FINAL CODE FOR PAPER DETECTION/results/reports/evaluation_metrics/split_70-30_with_stemming_dim_768.json
+2025-02-20 19:52:40,819 - experiment - INFO - Setting up experiment: split_70-30_with_stemming_dim_768
+2025-02-20 19:52:40,819 - experiment - INFO - Configuration:
+2025-02-20 19:52:40,819 - experiment - INFO - - Stemming mode: with_stemming
+2025-02-20 19:52:40,819 - experiment - INFO - - Split mode: 70_30
+2025-02-20 19:52:40,819 - experiment - INFO - - Dimension: 768
+2025-02-20 19:52:40,819 - experiment - INFO - Starting experiment: split_70-30_with_stemming_dim_768
+2025-02-20 20:08:48,727 - experiment - INFO - Results saved to /Users/ms/Downloads/PROPOSAL/FINAL CODE FOR PAPER DETECTION/results/reports/evaluation_metrics/split_70-30_with_stemming_dim_768.json
+2025-02-20 20:30:54,898 - experiment - INFO - Setting up experiment: split_70-30_with_stemming_dim_768
+2025-02-20 20:30:54,899 - experiment - INFO - Configuration:
+2025-02-20 20:30:54,899 - experiment - INFO - - Stemming mode: with_stemming
+2025-02-20 20:30:54,899 - experiment - INFO - - Split mode: 70_30
+2025-02-20 20:30:54,899 - experiment - INFO - - Dimension: 768
+2025-02-20 20:30:54,899 - experiment - INFO - Starting experiment: split_70-30_with_stemming_dim_768
+2025-02-20 20:53:28,496 - experiment - INFO - Setting up experiment: split_70-30_with_stemming_dim_768
+2025-02-20 20:53:28,496 - experiment - INFO - Configuration:
+2025-02-20 20:53:28,496 - experiment - INFO - - Stemming mode: with_stemming
+2025-02-20 20:53:28,496 - experiment - INFO - - Split mode: 70_30
+2025-02-20 20:53:28,496 - experiment - INFO - - Dimension: 768
+2025-02-20 20:53:28,496 - experiment - INFO - Starting experiment: split_70-30_with_stemming_dim_768

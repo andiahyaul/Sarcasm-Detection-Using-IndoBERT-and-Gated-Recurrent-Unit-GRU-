@@ -1,0 +1,9 @@
+2025-02-18 19:44:53,423 - experiment - INFO - Setting up experiment: split_70-30_with_stemming_dim_512
+2025-02-18 19:44:53,424 - experiment - INFO - Configuration:
+2025-02-18 19:44:53,424 - experiment - INFO - - Stemming mode: with_stemming
+2025-02-18 19:44:53,424 - experiment - INFO - - Split mode: 70_30
+2025-02-18 19:44:53,424 - experiment - INFO - - Dimension: 512
+2025-02-18 19:44:53,424 - experiment - INFO - Starting experiment: split_70-30_with_stemming_dim_512
+2025-02-18 19:44:53,424 - experiment - INFO - Starting grid search for with_stemming, 70_30, dim=512
+2025-02-18 19:45:12,111 - experiment - ERROR - Error in parameter combination {'gru_hidden_size': 512, 'gru_dropout': 0.1, 'learning_rate': 1e-05, 'gru_bidirectional': True, 'gru_num_layers': 2, 'batch_size': 16, 'weight_decay': 0.01, 'warmup_ratio': 0.1, 'patience': 3, 'min_delta': 0.0001}: input.size(-1) must be equal to input_size. Expected 512, got 768
+2025-02-18 19:45:28,737 - experiment - ERROR - Error in parameter combination {'gru_hidden_size': 512, 'gru_dropout': 0.1, 'learning_rate': 5e-05, 'gru_bidirectional': True, 'gru_num_layers': 2, 'batch_size': 16, 'weight_decay': 0.01, 'warmup_ratio': 0.1, 'patience': 3, 'min_delta': 0.0001}: input.size(-1) must be equal to input_size. Expected 512, got 768

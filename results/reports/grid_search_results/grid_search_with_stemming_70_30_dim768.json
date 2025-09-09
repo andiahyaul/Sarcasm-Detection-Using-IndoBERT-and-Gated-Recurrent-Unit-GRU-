@@ -1,0 +1,33 @@
+{
+    "best_params": {
+        "gru_hidden_size": 1024,
+        "gru_dropout": 0.3,
+        "learning_rate": 5e-05,
+        "gru_bidirectional": true,
+        "gru_num_layers": 2,
+        "batch_size": 16,
+        "weight_decay": 0.01,
+        "warmup_ratio": 0.1,
+        "patience": 3,
+        "min_delta": 0.0001
+    },
+    "best_val_loss": 0.5255110548301176,
+    "all_results": [
+        {
+            "params": {
+                "gru_hidden_size": 1024,
+                "gru_dropout": 0.3,
+                "learning_rate": 5e-05,
+                "gru_bidirectional": true,
+                "gru_num_layers": 2,
+                "batch_size": 16,
+                "weight_decay": 0.01,
+                "warmup_ratio": 0.1,
+                "patience": 3,
+                "min_delta": 0.0001
+            },
+            "val_loss": 0.5255110548301176,
+            "val_accuracy": 0.7390476190476191
+        }
+    ]
+}

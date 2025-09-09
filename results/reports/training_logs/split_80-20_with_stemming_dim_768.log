@@ -1,0 +1,41 @@
+2025-02-21 14:29:15,250 - experiment - INFO - Setting up experiment: split_80-20_with_stemming_dim_768
+2025-02-21 14:29:15,250 - experiment - INFO - Configuration:
+2025-02-21 14:29:15,250 - experiment - INFO - - Stemming mode: with_stemming
+2025-02-21 14:29:15,250 - experiment - INFO - - Split mode: 80_20
+2025-02-21 14:29:15,250 - experiment - INFO - - Dimension: 768
+2025-02-21 14:29:15,250 - experiment - INFO - Starting experiment: split_80-20_with_stemming_dim_768
+2025-02-21 14:53:33,258 - experiment - INFO - Setting up experiment: split_80-20_with_stemming_dim_768
+2025-02-21 14:53:33,259 - experiment - INFO - Configuration:
+2025-02-21 14:53:33,259 - experiment - INFO - - Stemming mode: with_stemming
+2025-02-21 14:53:33,259 - experiment - INFO - - Split mode: 80_20
+2025-02-21 14:53:33,259 - experiment - INFO - - Dimension: 768
+2025-02-21 14:53:33,259 - experiment - INFO - Starting experiment: split_80-20_with_stemming_dim_768
+2025-02-21 15:29:58,103 - experiment - ERROR - Error in experiment: [Errno 2] No such file or directory: '/Users/ms/Downloads/PROPOSAL/FINAL CODE FOR PAPER DETECTION/results/plots/split_80-20_with_stemming_dim_768/training_history.png'
+2025-02-21 15:40:40,405 - experiment - INFO - Setting up experiment: split_80-20_with_stemming_dim_768
+2025-02-21 15:40:40,405 - experiment - INFO - Configuration:
+2025-02-21 15:40:40,405 - experiment - INFO - - Stemming mode: with_stemming
+2025-02-21 15:40:40,405 - experiment - INFO - - Split mode: 80_20
+2025-02-21 15:40:40,405 - experiment - INFO - - Dimension: 768
+2025-02-21 15:40:40,405 - experiment - INFO - Starting experiment: split_80-20_with_stemming_dim_768
+2025-02-21 16:32:06,528 - experiment - ERROR - Error in experiment: [Errno 2] No such file or directory: '/Users/ms/Downloads/PROPOSAL/FINAL CODE FOR PAPER DETECTION/results/plots/split_80-20_with_stemming_dim_768/training_history.png'
+2025-02-21 16:38:31,347 - experiment - INFO - Setting up experiment: split_80-20_with_stemming_dim_768
+2025-02-21 16:38:31,347 - experiment - INFO - Configuration:
+2025-02-21 16:38:31,348 - experiment - INFO - - Stemming mode: with_stemming
+2025-02-21 16:38:31,348 - experiment - INFO - - Split mode: 80_20
+2025-02-21 16:38:31,348 - experiment - INFO - - Dimension: 768
+2025-02-21 16:38:31,348 - experiment - INFO - Starting experiment: split_80-20_with_stemming_dim_768
+2025-02-21 16:40:37,956 - experiment - ERROR - Error in experiment: DataLoader worker (pid(s) 26674, 26677) exited unexpectedly
+2025-02-21 16:41:07,599 - experiment - INFO - Setting up experiment: split_80-20_with_stemming_dim_768
+2025-02-21 16:41:07,599 - experiment - INFO - Configuration:
+2025-02-21 16:41:07,600 - experiment - INFO - - Stemming mode: with_stemming
+2025-02-21 16:41:07,600 - experiment - INFO - - Split mode: 80_20
+2025-02-21 16:41:07,600 - experiment - INFO - - Dimension: 768
+2025-02-21 16:41:07,600 - experiment - INFO - Starting experiment: split_80-20_with_stemming_dim_768
+2025-02-21 17:25:01,541 - experiment - ERROR - Error in experiment: [Errno 2] No such file or directory: '/Users/ms/Downloads/PROPOSAL/FINAL CODE FOR PAPER DETECTION/results/plots/split_80-20_with_stemming_dim_768/training_history.png'
+2025-02-21 18:46:13,718 - experiment - INFO - Setting up experiment: split_80-20_with_stemming_dim_768
+2025-02-21 18:46:13,718 - experiment - INFO - Configuration:
+2025-02-21 18:46:13,718 - experiment - INFO - - Stemming mode: with_stemming
+2025-02-21 18:46:13,718 - experiment - INFO - - Split mode: 80_20
+2025-02-21 18:46:13,718 - experiment - INFO - - Dimension: 768
+2025-02-21 18:46:13,718 - experiment - INFO - Starting experiment: split_80-20_with_stemming_dim_768
+2025-02-21 19:14:36,876 - experiment - ERROR - Error in experiment: [Errno 2] No such file or directory: '/Users/ms/Downloads/PROPOSAL/FINAL CODE FOR PAPER DETECTION/results/plots/split_80-20_with_stemming_dim_768/training_history.png'

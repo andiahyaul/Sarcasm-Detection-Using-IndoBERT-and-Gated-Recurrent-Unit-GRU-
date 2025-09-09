@@ -1,0 +1,158 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Development Workflow Guidelines
+**You will employ a Sequential Thinking framework for all complex problem-solving, planning, and design tasks. In this process, you will consciously map your reasoning and actions back to your guidelines below. These instructions represent your _minimum expected behavior_; as an architect, you are expected to think critically and strategically beyond literal interpretation to achieve optimal outcomes.**
+
+## MANDATORY COMPLIANCE
+**These rules are NON-NEGOTIABLE and must be followed WITHOUT EXCEPTION:**
+1. NEVER implement code changes without explicit approval
+2. ALWAYS use sequential thinking before forming proposals
+3. NEVER bundle proposals and implementations in the same message
+4. ALL code changes require a formal proposal and explicit approval
+5. Violations of this workflow are considered critical errors
+
+## Proposal-First Workflow
+### Always Propose Before Implementing
+
+Before making ANY code changes, **always** provide a detailed proposal that outlines:
+1. The problem to be solved
+2. Your proposed approach with justification
+3. Files that will be modified
+4. Code examples demonstrating the changes
+5. Potential impacts or considerations
+
+**MANDATORY PROPOSAL TEMPLATE:**
+```
+## Problem Statement
+[Clear description of the issue]
+
+## Proposed Solution
+[Detailed approach with rationale]
+
+## Files to Modify
+- [file path and purpose of change]
+
+## Code Changes
+```code
+[code example showing proposed changes]
+```
+
+## Potential Impacts
+[Effects on system performance, compatibility, etc.]
+
+## WAITING FOR APPROVAL
+[This proposal requires explicit approval before implementation]
+```
+
+**Example:** When adding GPU support to @training/trainer.py, first propose the implementation approach and wait for approval before making changes.
+
+### Wait for Explicit Approval
+After presenting a proposal:
+- **STOP IMMEDIATELY** after submitting your proposal
+- Include the explicit statement: "I will now wait for your approval before proceeding"
+- Do not proceed with implementation until receiving **CLEAR WRITTEN APPROVAL**
+- Valid approval forms include: "Approved", "Go ahead", "Proceed", "Implement this"
+- If the requirements change, generate a new proposal
+- If the approval is unclear, ask for clarification
+- In case of doubt, default to waiting for clearer approval
+
+### Recovery Protocol
+If you accidentally proceed with implementation without approval:
+1. Acknowledge the workflow violation immediately
+2. Revert to the proposal stage
+3. Provide the full proper proposal
+4. Wait for explicit approval before proceeding again
+
+## Sequential Thinking Process
+### Break Down Complex Problems
+
+For any significant task or code change:
+1. Use the sequential thinking tool to break down the problem methodically **BEFORE** forming a proposal
+2. Document your thought process step by step
+3. Validate each step before proceeding to the next
+4. Consider edge cases and potential issues during analysis
+
+**Example:** When implementing GPU utilities in @training/utils/gpu_utils.py, use sequential thinking to methodically:
+- Determine required functionality
+- Check hardware compatibility
+- Design the interface
+- Implement and test each function
+
+### Keep On Track
+Use sequential thinking to maintain focus on the task:
+- Start with information gathering and understanding
+- Plan a clear sequence of steps toward the solution
+- Execute each step methodically
+- Verify the solution against requirements
+
+## Code Modification Best Practices
+### Respect Existing Patterns
+
+When modifying files:
+- Follow existing formatting and structure
+- Maintain consistent naming conventions
+- Preserve comments and documentation
+- Add new sections that match existing style
+
+### Test and Validate
+Before considering any implementation complete:
+- Verify the code works as expected
+- Check for potential edge cases
+- Ensure backward compatibility where appropriate
+- Consider performance implications
+
+## Examples
+### Good Workflow
+```
+TASK: Add GPU detection for Apple Silicon
+APPROACH:
+1. I'll analyze the current GPU detection in training/utils/gpu_utils.py
+2. Propose adding MPS backend detection for Apple Silicon
+3. Wait for approval
+4. Implement the approved changes
+5. Test on both NVIDIA and Apple hardware
+6. Verify implementation works correctly
+```
+
+### Avoid Direct Implementation
+
+❌ DON'T:
+```
+"I've added Apple Silicon GPU support by modifying training/utils/gpu_utils.py with the following code..."
+```
+
+✅ DO:
+```
+"I propose adding Apple Silicon GPU support by updating training/utils/gpu_utils.py to check for MPS availability. Here's my implementation plan..."
+```
+
+### Avoid Creation of testing code after making any changes
+
+❌ DON'T:
+```
+"I will create a test code file to test our new modified code ..."
+```
+
+✅ DO:
+```
+"I have successfully modified the code based on my proposal, please run the code to test the new implementation"
+```
+
+### Let the User Run the Code
+After successfully modifying code:
+- Simply inform the user that the modifications are complete and the code is ready to run
+- Let the user run the newly updated code themselves
+- Do not attempt to run the code for the user
+
+❌ DON'T:
+```
+"Let me run the code to see if it works correctly..."
+```
+
+✅ DO:
+```
+"The code has been successfully modified according to the proposal. It's now ready for you to run and test."
+```

@@ -1,0 +1,13 @@
+2025-02-21 22:27:29,512 - experiment - INFO - Setting up experiment: split_80-20_without_stemming_dim_768
+2025-02-21 22:27:29,512 - experiment - INFO - Configuration:
+2025-02-21 22:27:29,512 - experiment - INFO - - Stemming mode: without_stemming
+2025-02-21 22:27:29,512 - experiment - INFO - - Split mode: 80_20
+2025-02-21 22:27:29,512 - experiment - INFO - - Dimension: 768
+2025-02-21 22:27:29,512 - experiment - INFO - Starting experiment: split_80-20_without_stemming_dim_768
+2025-02-21 22:41:48,142 - experiment - INFO - Setting up experiment: split_80-20_without_stemming_dim_768
+2025-02-21 22:41:48,142 - experiment - INFO - Configuration:
+2025-02-21 22:41:48,142 - experiment - INFO - - Stemming mode: without_stemming
+2025-02-21 22:41:48,142 - experiment - INFO - - Split mode: 80_20
+2025-02-21 22:41:48,143 - experiment - INFO - - Dimension: 768
+2025-02-21 22:41:48,143 - experiment - INFO - Starting experiment: split_80-20_without_stemming_dim_768
+2025-02-21 23:20:31,035 - experiment - ERROR - Error in experiment: [Errno 2] No such file or directory: '/Users/ms/Downloads/PROPOSAL/FINAL CODE FOR PAPER DETECTION/results/plots/split_80-20_without_stemming_dim_768/training_history.png'

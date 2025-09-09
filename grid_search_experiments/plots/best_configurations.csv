@@ -1,0 +1,5 @@
+Scenario,Best F1,Hidden Size,Dropout,Learning Rate,Batch Size,GRU Layers
+70_30 without stemming,0.7714,128,0.1,0.000100,32,2
+70_30 with stemming,0.7687,128,0.1,0.000300,16,1
+80_20 without stemming,0.7801,128,0.1,0.000300,16,1
+80_20 with stemming,0.7721,128,0.1,0.000100,32,2

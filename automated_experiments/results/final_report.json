@@ -1,0 +1,47 @@
+{
+    "total_experiments": 2,
+    "successful_experiments": 2,
+    "failed_experiments": [],
+    "duration_seconds": 4366.395769,
+    "device": "mps",
+    "best_results": {
+        "scenario_1": {
+            "experiment_name": "exp_80_20_nostem_iter1_h512_d0.1_lr0.0001_b32_l2",
+            "params": {
+                "hidden_size": 512,
+                "dropout": 0.1,
+                "learning_rate": 0.0001,
+                "batch_size": 32,
+                "gru_layers": 2
+            },
+            "best_f1": 0.7663907430817899,
+            "final_metrics": {
+                "0": {
+                    "precision": 0.8127450980392157,
+                    "recall": 0.8653444676409185,
+                    "f1-score": 0.8382204246713852,
+                    "support": 958.0
+                },
+                "1": {
+                    "precision": 0.6605263157894737,
+                    "recall": 0.5678733031674208,
+                    "f1-score": 0.610705596107056,
+                    "support": 442.0
+                },
+                "accuracy": 0.7714285714285715,
+                "macro avg": {
+                    "precision": 0.7366357069143448,
+                    "recall": 0.7166088854041697,
+                    "f1-score": 0.7244630103892207,
+                    "support": 1400.0
+                },
+                "weighted avg": {
+                    "precision": 0.7646874539289401,
+                    "recall": 0.7714285714285715,
+                    "f1-score": 0.7663907430817899,
+                    "support": 1400.0
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+2025-02-21 20:38:58,268 - experiment - INFO - Setting up experiment: split_70-30_without_stemming_dim_768
+2025-02-21 20:38:58,268 - experiment - INFO - Configuration:
+2025-02-21 20:38:58,268 - experiment - INFO - - Stemming mode: without_stemming
+2025-02-21 20:38:58,268 - experiment - INFO - - Split mode: 70_30
+2025-02-21 20:38:58,268 - experiment - INFO - - Dimension: 768
+2025-02-21 20:38:58,268 - experiment - INFO - Starting experiment: split_70-30_without_stemming_dim_768
+2025-02-21 20:54:23,813 - experiment - ERROR - Error in experiment: DataLoader worker (pid(s) 30885, 30888) exited unexpectedly
+2025-02-21 20:58:55,347 - experiment - INFO - Setting up experiment: split_70-30_without_stemming_dim_768
+2025-02-21 20:58:55,347 - experiment - INFO - Configuration:
+2025-02-21 20:58:55,347 - experiment - INFO - - Stemming mode: without_stemming
+2025-02-21 20:58:55,347 - experiment - INFO - - Split mode: 70_30
+2025-02-21 20:58:55,347 - experiment - INFO - - Dimension: 768
+2025-02-21 20:58:55,347 - experiment - INFO - Starting experiment: split_70-30_without_stemming_dim_768
+2025-02-21 21:18:50,855 - experiment - ERROR - Error in experiment: DataLoader worker (pid(s) 31537, 31543) exited unexpectedly
+2025-02-21 21:29:22,615 - experiment - INFO - Setting up experiment: split_70-30_without_stemming_dim_768
+2025-02-21 21:29:22,615 - experiment - INFO - Configuration:
+2025-02-21 21:29:22,615 - experiment - INFO - - Stemming mode: without_stemming
+2025-02-21 21:29:22,615 - experiment - INFO - - Split mode: 70_30
+2025-02-21 21:29:22,615 - experiment - INFO - - Dimension: 768
+2025-02-21 21:29:22,615 - experiment - INFO - Starting experiment: split_70-30_without_stemming_dim_768
+2025-02-21 21:40:21,854 - experiment - ERROR - Error in experiment: DataLoader worker (pid(s) 32354, 32357) exited unexpectedly
+2025-02-21 21:45:35,797 - experiment - INFO - Setting up experiment: split_70-30_without_stemming_dim_768
+2025-02-21 21:45:35,797 - experiment - INFO - Configuration:
+2025-02-21 21:45:35,797 - experiment - INFO - - Stemming mode: without_stemming
+2025-02-21 21:45:35,797 - experiment - INFO - - Split mode: 70_30
+2025-02-21 21:45:35,797 - experiment - INFO - - Dimension: 768
+2025-02-21 21:45:35,797 - experiment - INFO - Starting experiment: split_70-30_without_stemming_dim_768
+2025-02-21 22:15:16,664 - experiment - ERROR - Error in experiment: DataLoader worker (pid(s) 32818, 32823) exited unexpectedly

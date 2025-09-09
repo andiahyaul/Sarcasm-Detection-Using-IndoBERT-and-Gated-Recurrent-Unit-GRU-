@@ -1,0 +1,87 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Sequential Thinking Methodology
+## Core Principle
+**MANDATORY**: Sequential thinking tool **MUST** be used for complex tasks to maintain focus and methodical problem-solving. This is a non-negotiable requirement.
+
+## Enforcement Rules
+1. **NO EXCEPTIONS**: Sequential thinking MUST be used before forming ANY proposal
+2. **MANDATORY FIRST STEP**: Use sequential thinking as the FIRST step when approaching any non-trivial task
+3. **VERIFICATION REQUIRED**: Confirm completion of sequential thinking before proceeding
+4. **SELF-MONITORING**: If you catch yourself about to implement without sequential thinking, STOP and restart using the proper methodology
+5. **DEMONSTRATE USAGE**: Always show your sequential thinking process explicitly to the user
+
+## When Sequential Thinking is REQUIRED
+Sequential thinking is **MANDATORY** for:
+- Understanding complex codebases
+- Designing new features
+- Investigating bugs or unexpected behavior
+- Planning refactoring or architectural changes
+- Making changes that affect multiple components
+- Analyzing requirements for any coding task
+- Diagnosing problems in existing code
+- ANY issue that requires more than a simple, one-line change
+
+## How to Apply Sequential Thinking
+1. **Information Gathering (REQUIRED)**
+- Review relevant code and documentation
+- Understand the overall architecture
+- Identify dependencies and constraints
+- Analyze the context thoroughly before proceeding
+
+2. **Problem Decomposition (REQUIRED)**
+- Break the task into clear, logical steps
+- Identify decision points and alternatives
+- Document assumptions and requirements
+- Map out the complete solution path
+
+3. **Step-by-Step Execution (REQUIRED)**
+- Tackle each step in sequence
+- Validate completion before moving to the next step
+- Adjust the plan if new information emerges
+- Document your thinking at each step
+
+4. **Verification (REQUIRED)**
+- Test that the solution works as expected
+- Confirm all requirements are satisfied
+- Check for edge cases and potential issues
+- Validate completeness of the solution
+
+## Explicit Process Format
+**ALWAYS** use this explicit format with the sequential thinking tool:
+```
+THOUGHT 1: [Initial analysis of the problem]
+THOUGHT 2: [Detailed examination of relevant components]
+THOUGHT 3: [Identification of approach options]
+THOUGHT 4: [Selection of best approach with justification]
+THOUGHT 5: [Detailed implementation steps]
+THOUGHT 6: [Consideration of edge cases and potential issues]
+THOUGHT 7+: [Continue as needed with detailed steps]
+FINAL THOUGHT: [Summary of conclusion and recommended action]
+```
+
+## Example
+When implementing device detection in GPU utilities:
+```
+THOUGHT 1: Need to verify GPU hardware on current machine
+THOUGHT 2: Found NVIDIA A10G GPU with CUDA 12.4
+THOUGHT 3: Need to check if current code has GPU device handling
+THOUGHT 4: Current code only checks for CUDA vs CPU, no MPS support
+THOUGHT 5: Need to implement device detection for NVIDIA and Apple GPUs
+THOUGHT 6: Will create a new utility module for better organization
+THOUGHT 7: Final implementation will include device detection, optimization, and memory management
+```
+
+## Common Mistakes to Avoid
+❌ **DON'T**: Jump directly to implementation without analysis
+✅ **DO**: Use sequential thinking to methodically understand the problem first
+❌ **DON'T**: Make scattered, unplanned changes across multiple files
+✅ **DO**: Plan changes methodically using sequential thinking
+❌ **DON'T**: Abandon the sequential approach when facing obstacles
+✅ **DO**: Incorporate new information and adjust your sequential plan❌ **DON'T**: Skip steps in the sequential thinking process
+✅ **DO**: Complete ALL required steps in order
+❌ **DON'T**: Hide your thinking process from the user
+✅ **DO**: Make your sequential thinking explicitly visible
