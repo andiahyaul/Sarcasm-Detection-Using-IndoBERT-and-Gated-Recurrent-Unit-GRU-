@@ -16,10 +16,7 @@
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Experiments](#experiments)
-- [Results](#results)
 - [Contributing](#contributing)
-- [Citation](#citation)
-- [License](#license)
 
 ## 🎯 Overview
 
@@ -233,19 +230,6 @@ We welcome contributions! Please follow these steps:
 - Include unit tests for new features
 - Update documentation as needed
 
-## 📚 Citation
-
-If you use this work in your research, please cite:
-
-```bibtex
-@article{sarcasm_detection_indobert_gru,
-  title={Sarcasm Detection in Indonesian Text Using IndoBERT and Gated Recurrent Unit},
-  author={Your Name},
-  journal={Your Journal},
-  year={2024},
-  url={https://github.com/andiahyaul/Sarcasm-Detection-Using-IndoBERT-and-Gated-Recurrent-Unit-GRU-}
-}
-```
 
 ## 📄 License
 
