@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Research-yellow)](https://github.com/andiahyaul/Sarcasm-Detection-Using-IndoBERT-and-Gated-Recurrent-Unit-GRU-)
 
-> A sophisticated deep learning hybrid integrating **IndoBERT** and **Gated Recurrent Unit (GRU)** to enhance sarcasm detection accuracy in Indonesian text. The model leverages contextual understanding and sequential processing to effectively identify sarcastic comments on social media.
+> deep learning hybrid integrating **IndoBERT** and **Gated Recurrent Unit (GRU)** to enhance sarcasm detection accuracy in Indonesian text. The model leverages contextual understanding and sequential processing to effectively identify sarcastic comments on social media.
 
 ## 📋 Table of Contents
 
