@@ -1,0 +1,42 @@
+# Model files (too large for GitHub)
+*.pt
+*.pth
+*.h5
+*.pkl
+*.model
+
+# Checkpoints
+automated_experiments/checkpoints/
+models/saved_models/
+
+# Other large files
+*.zip
+*.tar.gz
+*.rar
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
