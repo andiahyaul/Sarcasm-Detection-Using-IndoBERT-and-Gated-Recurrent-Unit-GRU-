@@ -201,16 +201,6 @@ python src/experiments/automated_grid_search.py \
 python src/experiments/automated_training.py
 ```
 
-## 📊 Results
-
-### Performance Metrics
-
-| Configuration | Accuracy | Precision | Recall | F1-Score |
-|--------------|----------|-----------|--------|----------|
-| IndoBERT + GRU (512) | **94.2%** | **93.8%** | **94.6%** | **94.2%** |
-| IndoBERT Only | 91.5% | 90.9% | 92.1% | 91.5% |
-| GRU Only | 87.3% | 86.8% | 87.9% | 87.3% |
-
 ### Key Findings
 
 - ✅ **Hybrid architecture** outperforms individual models
@@ -261,16 +251,3 @@ If you use this work in your research, please cite:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📞 Contact
-
-- **Author**: [Your Name]
-- **Email**: your.email@example.com
-- **GitHub**: [@andiahyaul](https://github.com/andiahyaul)
-
----
-
-<div align="center">
-  <i>Built with ❤️ for Indonesian NLP research</i>
-  <br>
-  ⭐ Star this repo if you find it helpful!
-</div>
